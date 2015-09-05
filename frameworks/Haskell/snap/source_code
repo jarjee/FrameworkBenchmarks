@@ -1,2 +1,3 @@
 ./snap/bench/src/
 ./snap/bench/src/Main.hs
+./snap/bench/snap-bench.cabal

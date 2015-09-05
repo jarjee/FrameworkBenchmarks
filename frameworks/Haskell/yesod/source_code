@@ -1,2 +1,3 @@
 ./yesod/bench/src/
 ./yesod/bench/src/yesod.hs
+./yesod/bench/yesod-bench.cabal

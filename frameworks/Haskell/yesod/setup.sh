@@ -8,6 +8,6 @@ cd bench
 
 ${CABAL_HOME}/bin/cabal update
 ${CABAL_HOME}/bin/cabal sandbox init
-${CABAL_HOME}/bin/cabal --bindir=${TROOT}/bench/dist/build/bench install
+${CABAL_HOME}/bin/cabal install
 
-dist/build/bench/bench ${MAX_THREADS} ${DBHOST} +RTS -A32m -N${MAX_THREADS} &
+`find dist/ -name "bench" -type f` ${MAX_THREADS} ${DBHOST} +RTS -A32m -N${MAX_THREADS} &

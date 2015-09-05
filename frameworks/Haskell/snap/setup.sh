@@ -11,6 +11,6 @@ cd bench
 
 ${CABAL_HOME}/bin/cabal update
 ${CABAL_HOME}/bin/cabal sandbox init
-${CABAL_HOME}/bin/cabal --bindir=${TROOT}/bench/dist/build/snap-bench install
+${CABAL_HOME}/bin/cabal install
 
-dist/build/snap-bench/snap-bench +RTS -A4M -N -qg2 -I0 -G2 &
+`find dist/ -name "snap-bench" -type f` +RTS -A4M -N -qg2 -I0 -G2 &
