@@ -1,6 +1,6 @@
 #!/bin/bash
-export CABAL_HOME=/opt/cabal/1.20
-export HASKELL_HOME=/opt/ghc/7.8.3
+export CABAL_HOME=/opt/cabal/1.22
+export HASKELL_HOME=/opt/ghc/7.10.3
 export LANG=en_US.UTF-8
 
 sed -i 's|host=".*"|host="'"${DBHOST}"'"|g' bench/cfg/db.cfg
